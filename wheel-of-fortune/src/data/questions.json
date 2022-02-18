@@ -1,0 +1,53 @@
+{   
+    "questions" : [
+        {
+            "clue": "to say a percentage of something, often money related.",
+            "phrase": "cents on the dollar"
+        },
+        {
+            "clue": "something that happens very rarely",
+            "phrase": "once in a blue moon"
+        }   ,     
+        {
+            "clue": "to do something the cheap way to save time and money",
+            "phrase": "cut corners"
+        },
+
+        {
+            "clue": "the latest technology",
+            "phrase": "cutting edge"
+        },
+
+        {
+            "clue": "additional features to a product",
+            "phrase": "bells and whistles"
+        },
+
+        {
+            "clue": "to wish someone good luck",
+            "phrase": "break a leg"
+        },
+
+        {
+            "clue": "malicious software that can harm your computer",
+            "phrase": "malware"
+        },
+
+        {
+            "clue": "a small, portable data storage device",
+            "phrase": "flash drive"
+        },
+        {
+            "clue": "electron moving in a wire",
+            "phrase": "electric current"
+        },
+
+        {
+            "clue": "to quit something abruptly and completely ",
+            "phrase": "go cold turkey"
+        }
+
+
+    ]
+    
+}

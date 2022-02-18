@@ -1,0 +1,54 @@
+.Letter-hidden{
+    color: transparent;
+    margin: 3px;
+    font-size:2cm;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Letter-reveal{
+    margin: 3px;
+    font-size:2cm;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Alphabet{
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 2ch;
+    font-size:2cm;
+    background-color: rgb(54, 47, 47);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.Alphabet-choosed{
+
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 2ch;
+    font-size:2cm;
+    color:grey;
+    background-color: rgb(54, 47, 47);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Clue{
+    font-size:1.5cm;
+}
+.Header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    color: #fff;
+}
+
+.NextQuestion{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    
+
+}
