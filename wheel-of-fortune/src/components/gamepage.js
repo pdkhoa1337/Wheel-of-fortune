@@ -10,7 +10,6 @@ function GamePage(props){
 
     const addGuess = (guess)=>{
         if(!guesses.includes(guess)){
-            console.log(guess)
             setGuesses([...guesses,guess])
         }
     }
@@ -24,7 +23,15 @@ function GamePage(props){
             <text className="Clue" >{props.question.clue}</text>
                 
 
-
+            <button onClick={()=>{
+                let x =[]
+                props.question.phrase.split('').forEach(letter => {
+                    if(!guesses.includes(letter)){
+                        x.push(letter)
+                    }
+                });
+                setGuesses([...guesses,...x])
+            }            } >Reveal</button>
             <PhraseHolder phrase = {props.question.phrase} guesses = {guesses} />
 
             <CharInput addguess = {addGuess} guesses={guesses}/>
