@@ -12,7 +12,7 @@ function PhraseHolder(props){
 
     })
     return(
-        <div>
+        <div className='Phrase-holder'>
             {list}
         </div>
     )
