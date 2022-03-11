@@ -1,6 +1,7 @@
 import PhraseHolder from "./phraseholder"
 import {useState, useEffect} from 'react'
 import CharInput from "./char_input"
+import Header from './header';
 import '../Game.css'
 
 
@@ -8,7 +9,7 @@ import '../Game.css'
 function GamePage(props){
     const [guesses, setGuesses] =  useState([])
     const [curPlayer,setCurPlayer] = useState(0)
-    let playernum = 3
+    let playernum = 2
     const addGuess = (guess)=>{
         if(!guesses.includes(guess)){
             let points = 0
@@ -27,17 +28,9 @@ function GamePage(props){
         }
         nextTurn()
     }
-    useEffect(()=>{
-        setGuesses([])
-    },[props])
     
     const [playerscore,setPlayerscore] = useState(Array(playernum).fill(0))
     let players = playerscore.map((score,index)=>{
-        // if(index == curPlayer){
-        //     return <div className='Player' key={index}>
-           
-        // </div>
-        // }
         return <div className='Player' key={index}>
                 {index !== curPlayer ? <>Team {index+1} <br/> {score}</> : <b>Team {index+1} <br/> {score}</b>}
             </div>
@@ -51,13 +44,14 @@ function GamePage(props){
             setCurPlayer(0)
         }
     }
+    const nextQuestion = ()=>{
+        setGuesses([])
+        props.nextquestion()
+    }
     return (
         <div className='Game'>
-
+            <Header nextquestion ={()=> nextQuestion()} />
             <text className="Clue" >{props.question.clue}</text>
-                
-
-            
             <PhraseHolder phrase = {props.question.phrase} guesses = {guesses} />
             <button onClick={()=>{
                 let x =[]

@@ -1,52 +1,43 @@
 {   
     "questions" : [
         {
-            "clue": "to say a percentage of something, often money related.",
-            "phrase": "cents on the dollar"
+            "clue": "fluid below the platform",
+            "phrase": "water under the bridge"
+            
         },
         {
-            "clue": "something that happens very rarely",
-            "phrase": "once in a blue moon"
+            "clue": "put the axe under ground",
+            "phrase": "bury the hatchet"
         }   ,     
         {
-            "clue": "to do something the cheap way to save time and money",
-            "phrase": "cut corners"
+            "clue": "pass thy decease carcass",
+            "phrase": "over my dead body"
         },
 
         {
-            "clue": "the latest technology",
-            "phrase": "cutting edge"
+            "clue": "keyboard warrior",
+            "phrase": "cyber warfare"
         },
 
         {
-            "clue": "additional features to a product",
+            "clue": "awful body juice",
             "phrase": "bells and whistles"
         },
 
         {
-            "clue": "to wish someone good luck",
-            "phrase": "break a leg"
+            "clue": "playing poultry",
+            "phrase": "game of chicken"
         },
 
         {
-            "clue": "malicious software that can harm your computer",
-            "phrase": "malware"
+            "clue": "geneva convention",
+            "phrase": "all is fair in love and war"
         },
 
         {
-            "clue": "a small, portable data storage device",
-            "phrase": "flash drive"
-        },
-        {
-            "clue": "electron moving in a wire",
-            "phrase": "electric current"
-        },
-
-        {
-            "clue": "to quit something abruptly and completely ",
-            "phrase": "go cold turkey"
+            "clue": "a game involving urine",
+            "phrase": "pissing contest"
         }
-
 
     ]
     

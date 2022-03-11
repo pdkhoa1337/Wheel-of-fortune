@@ -1,6 +1,5 @@
 import './App.css';
 import GamePage from './components/gamepage'
-import Header from './components/header';
 import {useState} from 'react'
 
 
@@ -11,15 +10,15 @@ function App() {
   const [index, setIndex] = useState(0)
   return (
     <div className="App">
-      <Header nextquestion={ ()=>{
+
+      <GamePage question = {data.questions[index]  } nextquestion={ ()=>{
         if(index<len-1){
           setIndex(index+1)
         }
         else{
           setIndex(0)
         }
-      }}/>
-      <GamePage question = {data.questions[index] }></GamePage>
+      }}></GamePage>
     </div>
   );
 }

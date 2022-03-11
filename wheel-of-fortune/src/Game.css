@@ -69,7 +69,8 @@
 .Player{
     font-size:2cm;
     align-self: center;
-    /* margin:5ch; */
+    margin-right: 2ch;
+    margin-left: 2ch; 
 
 }
 
